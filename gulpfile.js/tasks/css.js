@@ -1,8 +1,6 @@
 var gulp            = require('gulp'),
     sass            = require('gulp-sass'),
-    autoprefixer    = require('gulp-autoprefixer'),
-    cleanCSS        = require('gulp-clean-css'),
-    rename          = require('gulp-rename');
+    autoprefixer    = require('gulp-autoprefixer');
 
 var cssTask = function() {
   return gulp.src('./src/assets/scss/**/*.scss')
