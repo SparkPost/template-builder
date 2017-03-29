@@ -28,5 +28,5 @@ var serveTask = function() {
   gulp.watch('./dist/*.html').on('change', browserSync.reload);
 }
 
-gulp.task('serve', ['css'], serveTask);
+gulp.task('serve', ['build'], serveTask);
 module.exports = serveTask;

@@ -7,5 +7,5 @@ var inlineTask = function () {
       .pipe(gulp.dest('./dist/'));
 }
 
-gulp.task('inline', ['html'], inlineTask);
+gulp.task('inline', ['css', 'html'], inlineTask);
 module.exports = inlineTask;

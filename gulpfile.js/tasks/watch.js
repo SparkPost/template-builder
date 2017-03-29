@@ -1,9 +1,8 @@
 var gulp = require('gulp');
 
 var watchTask = function(){
-  gulp.watch('./src/assets/scss/**/*.scss',     ['css']);
-  gulp.watch('./src/templates/**/*.html',       ['html']);
-  gulp.watch('./dist/not-inlined**/*.html',     ['inline']);
+  gulp.watch('./src/assets/scss/**/*.scss',     ['build']);
+  gulp.watch('./src/templates/**/*.html',       ['build']);
 };
 
 gulp.task('watch', watchTask);
