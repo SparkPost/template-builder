@@ -1,7 +1,13 @@
 // Settings to override Foundation
 $global-width: 560px;
-$container-background: grayscale(10);
-// $body-background: grayscale(1);
+$container-background: grayscale(9);
+$body-background: grayscale(9);
+$global-gutter: 16px;
+
+$primary-color: color(orange);
+$secondary-color: color(blue);
+$alert-color: color(alert);
+$warning-color: color(mustard);
 
 //  Foundation for Emails Settings
 //  ------------------------------

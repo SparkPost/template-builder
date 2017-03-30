@@ -4,10 +4,66 @@
 @import 'settings';
 @import 'foundation-emails/scss/foundation-emails';
 
+// https://www.campaignmonitor.com/css/
+
 body {
   background-color: grayscale(9);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+hr {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid grayscale(8);
+  margin-bottom: $global-gutter;
+}
+
+.panel {
+  background-color: grayscale(10);
+  border: 1px solid grayscale(8);
+
+  // Not fully supported
+  box-shadow: 0px 5px 15px rgba(#222222, 0.1)
+}
+
+.paddingTB {
+  padding-top: $global-gutter;
+  padding-bottom: $global-gutter;
+}
+
+.padding--lg {
+  padding-top: $global-gutter * 2;
+  padding-bottom: $global-gutter * 2;
+  padding-left: $global-gutter * 2;
+  padding-right: $global-gutter * 2;
+}
+
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: grayscale(1);
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 21px;
 }
 
 p {
-  color: color(orange);
+  font-size: 15px;
+  color: grayscale(3);
+}
+
+a, a:visited {
+  font-weight: 400;
+  color: color(blue);
 }
