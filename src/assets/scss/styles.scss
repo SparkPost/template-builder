@@ -1,5 +1,7 @@
 @import 'foundation-emails/scss/foundation-emails';
+@import '@sparkpost/styles/src/assets/scss/shared/config';
+@import '@sparkpost/styles/src/assets/scss/shared/functions';
 
 p {
-  color: blue;
+  color: color(orange);
 }
