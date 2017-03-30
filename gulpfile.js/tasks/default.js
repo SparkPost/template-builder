@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 
-var buildTask = ['css', 'html', 'inline'];
+var buildTask = ['css', 'html', 'image', 'inline'];
 gulp.task('build', buildTask);
 
 var defaultTask = ['serve', 'watch'];

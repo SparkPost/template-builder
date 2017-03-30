@@ -3,6 +3,7 @@ var gulp = require('gulp');
 var watchTask = function(){
   gulp.watch('./src/assets/scss/**/*.scss',     ['build']);
   gulp.watch('./src/templates/**/*.html',       ['build']);
+  gulp.watch('./src/assets/images/*',           ['image']);
 };
 
 gulp.task('watch', watchTask);
