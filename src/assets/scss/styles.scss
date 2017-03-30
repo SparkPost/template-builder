@@ -1,6 +1,12 @@
-@import 'foundation-emails/scss/foundation-emails';
 @import '@sparkpost/styles/src/assets/scss/shared/config';
 @import '@sparkpost/styles/src/assets/scss/shared/functions';
+
+@import 'settings';
+@import 'foundation-emails/scss/foundation-emails';
+
+body {
+  background-color: grayscale(9);
+}
 
 p {
   color: color(orange);

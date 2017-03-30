@@ -2,13 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{% block title %}Main Layout{% endblock %}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}SparkPost{% endblock %}</title>
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-
-    {% block content %}{% endblock %}
-
+    <table class="container">
+      <tbody>
+        <tr>
+          <td>            
+            {% include "includes/header.html" %}
+            {% block content %}{% endblock %}
+            {% include "includes/footer.html" %}
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
